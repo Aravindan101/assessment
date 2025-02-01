@@ -1,0 +1,64 @@
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .table-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .table-container > div > button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .table-container > div > input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .table-container > div > span {
+    margin: 0 10px;
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
